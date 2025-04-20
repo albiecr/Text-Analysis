@@ -28,7 +28,7 @@ A simple text analyzer that counts word frequency in user-provided text.
 &nbsp&nbsp&nbsp 1. Prompt you to enter a text <br>  
 &nbsp&nbsp&nbsp 2. Show the formatted text (without punctuation and in lowercase) <br>
 &nbsp&nbsp&nbsp 3. Display frequency of all words <br>
-&nbsp&nbsp&nbsp 4. Allow searching for frequency of a specific word <br><br>
+&nbsp&nbsp&nbsp 4. Allow searching for frequency of a specific word <br>
 
 <h2>🏗️ Code Structure</h2>
 The TextAnalyzer class contains: <br><br>
@@ -51,8 +51,9 @@ Project Link: https://github.com/albiecr/text-analyzer
 • Implement case-sensitive analysis option <br>
 • Add stopwords filtering <br>
 • Create a GUI version <br>
-<img align = "right" height = "300" src = "https://github.com/user-attachments/assets/3b30fe86-71ff-400d-92eb-1f66f1d9ca4d"/>
+
 <h2>🤝 Contributing </h2>
+<img align = "right" height = "300" src = "https://github.com/user-attachments/assets/3b30fe86-71ff-400d-92eb-1f66f1d9ca4d"/>
 Contributions are welcome! Please open an issue or submit a pull request. <br><br>
 
 1. Fork the project <br>
