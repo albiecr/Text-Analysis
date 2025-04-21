@@ -1,34 +1,26 @@
 #Press Shift+Enter to run the code
 class TextAnalyzer(object):
-    
+    """A class to analyze text for word frequencies."""
     def __init__ (self, text):
-        # remove punctuation
+        """Initialize the analyzer with formatted text (punctuation removed and lowercase)."""
         formattedText = text.replace('.','').replace('!','').replace('?','').replace(',','')
-        
-        # make text lowercase
         formattedText = formattedText.lower()
-        
         self.fmtText = formattedText
         
     def freqAll(self):        
-        # split text into words
+       """Return a dictionary of all words and their frequencies."""
         wordList = self.fmtText.split(' ')
-        
-        # Create dictionary
         freqMap = {}
-        for word in set(wordList): # use set to remove duplicates in list
-            freqMap[word] = wordList.count(word)
+        return {word: wordList.count(word) for word in set(wordList) if word}  # Added if word to filter empty strings
         
         return freqMap
            
     def freqOf(self,word):
-        # get frequency map
+        """Return the frequency of a specific word."""
+        if not word:  # Check for empty input
+            return 0
         freqDict = self.freqAll()
-
-        if word in freqDict:
-            return freqDict[word]
-        else:
-            return 0;
+        return freqDict.get(word.lower(), 0)  # Make search case-insensitive
 
 #Create variable givenstring and ask user to input
 givenstring = input("Please type the text: ")
