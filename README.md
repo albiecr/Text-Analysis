@@ -18,11 +18,11 @@ A simple text analyzer that counts word frequency in user-provided text.
 <h2>⚙️ Installation</h2>
 • No special installation required beyond Python <br><br>
 • Clone the repository (if applicable): <br><br>
-<pre><code class="language-bash">git clone https://github.com/albiecr/text-analyzer.git
+<pre><code class="language-bash">git clone https://github.com/albiecr/Text-Analysis.git
 cd text-analyzer</code></pre>
 <h2>🚀 Usage</h2>
 • Run the script directly: <br><br>
-  <pre><code class="language-bash">python text_analyzer.py</code></pre>
+  <pre><code class="language-bash">python TextAnalysis.py</code></pre>
 • The program will: <br>
 &nbsp&nbsp&nbsp 1. Prompt you to enter a text <br>  
 &nbsp&nbsp&nbsp 2. Show the formatted text (without punctuation and in lowercase) <br>
@@ -43,7 +43,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 <h2>✉️ Contact </h2>
 Albertina Rodrigues - albertinacrodrigues@gmail.com <br>
-Project Link: https://github.com/albiecr/text-analyzer
+Project Link: https://github.com/albiecr/Text-Analysis
 
 <h2>🔮 Future Improvements </h2>
 • Add support for more punctuation marks <br>
