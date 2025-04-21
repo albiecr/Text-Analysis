@@ -18,12 +18,11 @@ A simple text analyzer that counts word frequency in user-provided text.
 <h2>⚙️ Installation</h2>
 • No special installation required beyond Python <br><br>
 • Clone the repository (if applicable): <br><br>
-&nbsp&nbsp&nbsp git clone https://github.com/albiecr/text-analyzer.git <br>
-&nbsp&nbsp&nbsp cd text-analyzer
-
+<pre><code class="language-bash">git clone https://github.com/albiecr/text-analyzer.git
+cd text-analyzer</code></pre>
 <h2>🚀 Usage</h2>
 • Run the script directly: <br><br>
-&nbsp&nbsp&nbsp python text_analyzer.py <br><br>
+  <pre><code class="language-bash">python text_analyzer.py</code></pre>
 • The program will: <br>
 &nbsp&nbsp&nbsp 1. Prompt you to enter a text <br>  
 &nbsp&nbsp&nbsp 2. Show the formatted text (without punctuation and in lowercase) <br>
@@ -56,11 +55,11 @@ Project Link: https://github.com/albiecr/text-analyzer
 <img align = "right" height = "300" src = "https://github.com/user-attachments/assets/3b30fe86-71ff-400d-92eb-1f66f1d9ca4d"/>
 Contributions are welcome! Please open an issue or submit a pull request. <br><br>
 
-1. Fork the project <br>
-2. Create your feature branch (git checkout -b feature/AmazingFeature) <br>
-3. Commit your changes (git commit -m 'Add some AmazingFeature') <br>
-4. Push to the branch (git push origin feature/AmazingFeature) <br>
-5. Open a pull request <br>
+1. Fork the project <br><br>
+2. Create your feature branch <pre><code class="language-bash">git checkout -b feature/AmazingFeature</code></pre>
+3. Commit your changes <pre><code class="language-bash">git commit -m 'Add some AmazingFeature'</code></pre>
+4. Push to the branch <pre><code class="language-bash">git push origin feature/AmazingFeature</code></pre>
+5. Open a pull request
 
 <img width="100%" bottom=50px src ="https://capsule-render.vercel.app/api?type=waving&height=100&color=FF78CB&section=footer&reversal=false&descAlign=22&descAlignY=42"/>
 
