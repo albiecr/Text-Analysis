@@ -19,7 +19,7 @@ A simple text analyzer that counts word frequency in user-provided text.
 • No special installation required beyond Python <br><br>
 • Clone the repository (if applicable): <br><br>
 <pre><code class="language-bash">git clone https://github.com/albiecr/Text-Analysis.git
-cd text-analyzer</code></pre>
+cd Text-Analysis</code></pre>
 <h2>🚀 Usage</h2>
 • Run the script directly: <br><br>
   <pre><code class="language-bash">python TextAnalysis.py</code></pre>
